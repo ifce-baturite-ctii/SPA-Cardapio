@@ -41,6 +41,7 @@ class CardPrato {
         
         this.pedirBtn.innerText = "Pedir";
         this.pedirBtn.classList.add("pedidos__btn");
+        
         this.pedirBtn.onclick = () => {
             this.qtd += 1; 
             this.qtdElem.innerText = this.qtd;

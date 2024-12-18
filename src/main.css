@@ -26,8 +26,12 @@ section {
 }
 
 .pedidos__btn {
+    border-radius: 5% !important;
+    border-width: 0;
+    padding: 3px;
+    font-size: x-small;
+    color: white;
     background-color: var(--cor-primaria);
-
     &:hover {
         background-color: var(--cor-secundaria);
     }
@@ -51,8 +55,8 @@ section {
 }
 
 .nav__link {
-    background-color: var(--cor-primaria);
-    border-top-style: solid;
+
+    background: linear-gradient(to top, gray, white);
     border-top-color: var(--cor-secundaria);
     border-top-width: 0.25rem;
     border-top: 10px;
@@ -106,3 +110,4 @@ section {
     padding: 5px;
     text-align: center;
 }
+
